@@ -1143,12 +1143,35 @@ footer .copyright {
 
 .post .post-content .post-date,
 .post .post-content .post-words {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+.post .post-content .post-date {
+  font-size: 14px;
+  color: #263959;
+}
+
+.post .post-content .post-news {
+  margin: 0 0 7px;
+  font-size: 15px;
+}
+
+.post .post-content .post-new {
+  font-size: 15px;
+}
+
+.post .post-content .post-authors {
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+.post .post-content .post-publication {
+  font-size: 14px;
 }
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
 }
 

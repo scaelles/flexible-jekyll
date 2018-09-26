@@ -1,16 +1,51 @@
 ---
 layout: main
 ---
-{% for person in site.data.publications %}
+<h1 class="post-title">Latest news</h2>
 <article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+	<div class="post-content">
+	{% for new in site.data.latest_news %}
+    <p class="post-news">
+    <a class="post-date">[{{ new.date }}]: </a>
+    <a class="post-new">{{ new.text }}</a>
+    </p>
+	{% endfor %}
+</div>
+</article>
+
+<div class="pure-g">
+<div class="pure-u-1-1" style="text-align:center">
+<h1 style="text-align:center">Publications</h1>
+</div>
+</div>
+{% for publication in site.data.publications %}
+<article class="post">
+  {% if publication.image %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : publication.image}})" href="{{publication.url}}" target="_blank"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{person.name | prepend: site.baseurl}}">{{person.name}}</a></h2>
+    <p class="post-title"><a href="{{publication.url}}" target="_blank">{{publication.name}}</a></p>
+    <p class="post-authors">{{publication.authors}}</p>
+    <p class="post-publication">{{publication.publication}}</p>
+    <p class="post-words">
+      <a href="{{publication.url_paper}}" target="_blank">[PDF]</a>
+      <a href="{{publication.url}}" target="_blank">[Website]</a>
+      {% if publication.url_code %}
+        <a href="{{publication.url_code}}" target="_blank">[Code]</a>
+      {% else %}
+      {% endif %}
+    </p> 
+
   </div>
 </article>
 {% endfor %}
 
-{% include pagination.html %}
+<!-- <h1 class="post-title" align="center"">Fun projects</h2>
+<article class="post">
+{% for new in site.data.latest_news %}
+    <p style="margin-left: 20px">{{ new.text }}</p>
+    <br>
+{% endfor %}
+</article>
+ -->
