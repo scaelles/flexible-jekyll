@@ -1,4 +1,4 @@
-- name: "Deep extreme cut: From extreme points to object segmentation"
+- name: "Deep Extreme Cut: From Extreme Points to Object Segmentation"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/dextr/"
   authors: "K.-K. Maninis*, <b>S. Caelles*</b>, J. Pont-Tuset, L. Van Gool"
   publication: "Computer Vision and Pattern Recognition (CVPR), 2018"
@@ -22,7 +22,7 @@
 
 - name: "Iterative Deep Learning for Road Topology Extraction"
   url: "https://carlesventura.github.io/iterative-dl-road-website/"
-  authors: "C. Ventura, J. Pont-Tuset, <b>S. Caelles</b>, Y. Chen, K.-K. Maninis,  L. Van Gool"
+  authors: "C. Ventura, J. Pont-Tuset, <b>S. Caelles</b>, K.-K. Maninis,  L. Van Gool"
   publication: "British Machine Vision Conference (BMVC), 2018"
   url_code: "https://github.com/carlesventura/iterative-deep-learning"
   url_paper: "http://bmvc2018.org/contents/papers/0905.pdf"
