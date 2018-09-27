@@ -1,7 +1,13 @@
 ---
 layout: main
 ---
-<h1 class="post-title">Latest news</h2>
+<h1 class="post-title">About</h2>
+<article class="post">
+  <div class="post-about">
+    <p>{{ site.data.about.text}}</p>
+</article>
+
+<h1 class="post-title">Latest News</h2>
 <article class="post">
 	<div class="post-content">
 	{% for new in site.data.latest_news %}
@@ -21,7 +27,7 @@ layout: main
 {% for publication in site.data.publications %}
 <article class="post">
   {% if publication.image %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : publication.image}})" href="{{publication.url}}" target="_blank"></a>
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : publication.image}});background-size:100% 100%" href="{{publication.url}}" target="_blank"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
