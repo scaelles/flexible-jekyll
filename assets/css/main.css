@@ -1131,12 +1131,15 @@ footer .copyright {
 
 .post .post-thumbnail {
   width: 30%;
-  height: auto;
+  /*height: auto;*/
   max-width: 100%;
   min-height: 11rem;
+  max-height: 20%;
+
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
+  background-size:100% 100%;
 }
 
 .post .post-content {
@@ -1229,6 +1232,20 @@ a.newer-posts:hover {
       -ms-transform: translateX(-5px);
           transform: translateX(-5px);
 }
+
+/*************************************
+     The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+    margin-right: 0%;
+    margin-top: 1.2em;
+    margin-bottom: 1.3em;
+    border: 1px solid silver;
+    padding: 0.3em 0.5em;
+    background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
@@ -1396,6 +1413,12 @@ a.newer-posts:hover {
   }
   .post .post-thumbnail {
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+  }
+
+  .post .post-content .post-date {
+    font-size: 14px;
   }
   .post .post-content {
     width: 100%;

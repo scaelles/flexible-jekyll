@@ -4,14 +4,30 @@
   publication: "Computer Vision and Pattern Recognition (CVPR), 2018"
   url_code: "https://github.com/scaelles/DEXTR-PyTorch"
   url_paper: "http://openaccess.thecvf.com/content_cvpr_2018/papers/Maninis_Deep_Extreme_Cut_CVPR_2018_paper.pdf"
-  image: dextr.jpg
+  image: dextr.png
+  bibtex_key: 'Man+18'
+  bibtex: |
+    @inproceedings{Man+18,
+      author  = {K.-K. Maninis and S. Caelles and J. Pont-Tuset and L. {Van Gool}},
+      title   = {Deep Extreme Cut: From Extreme Points to Object Segmentation},
+      booktitle = {Computer Vision and Pattern Recognition (CVPR)},
+      year    = {2018}
+    }
 
 - name: "The 2018 DAVIS Challenge on Video Object Segmentation"
   url: "https://davischallenge.org/challenge2018/index.html"
   authors: "<b>S. Caelles</b>, A. Montes, K.-K. Maninis, Y. Chen, L. Van Gool, F. Perazzi, J. Pont-Tuset"
   publication: "arXiv:1803.00557, 2018"
   url_pdf: "https://arxiv.org/pdf/1803.00557"
-  image: davis-2018.jpg
+  image: davis-2018.png
+  bibtex_key: 'Caelles_arXiv_2018'
+  bibtex: |
+    @article{Caelles_arXiv_2018, 
+      author = {S. Caelles and A. Montes and K.-K. Maninis and Y. Chen and L. {Van Gool} and F. Perazzi and J. Pont-Tuset},
+      title = {The 2018 DAVIS Challenge on Video Object Segmentation},
+      journal = {arXiv:1803.00557},
+      year = {2018}
+    }
 
 - name: "Video Object Segmentation Without Temporal Information"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/dextr/"
@@ -19,6 +35,14 @@
   publication: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018"
   url_paper: "https://ieeexplore.ieee.org/document/8362936/"
   image: osvoss.png
+  bibtex_key: 'Man+18b'
+  bibtex: |
+   @Article{Man+18b,
+      Author  = {K.-K. Maninis and S. Caelles and Y. Chen and J. Pont-Tuset and L. Leal-Taix\'e and D. Cremers and L. {Van Gool}},
+      Title   = {Video Object Segmentation Without Temporal Information},
+      Journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+      Year    = {2018}
+    }
 
 - name: "Iterative Deep Learning for Road Topology Extraction"
   url: "https://carlesventura.github.io/iterative-dl-road-website/"
@@ -27,6 +51,14 @@
   url_code: "https://github.com/carlesventura/iterative-deep-learning"
   url_paper: "http://bmvc2018.org/contents/papers/0905.pdf"
   image: roads-qualitative-results.png
+  bibtex_key: 'Venture_bmvc_2018'
+  bibtex: |
+    @article{Venture_bmvc_2018, 
+      author = {C. Ventura and J. Pont-Tuset and S. Caelles and K.-K. Maninis and L. {Van Gool}},
+      title = {Iterative Deep Learning for Road Topology Extraction},
+      journal = {British Machine Vision Conference (BMVC)},
+      year = {2018}
+    }
 
 - name: "The 2017 DAVIS Challenge on Video Object Segmentation"
   url: "https://davischallenge.org/challenge2017/index.html"
@@ -34,6 +66,14 @@
   publication: "arXiv:1704.00675, 2017"
   url_pdf: https://arxiv.org/abs/1704.00675"
   image: davis-2017.jpg
+  bibtex_key: 'Pont-Tuset_arXiv_2017'
+  bibtex: |
+    @article{Pont-Tuset_arXiv_2017,
+      author = {J. Pont-Tuset and F. Perazzi and S. Caelles and P. Arbel\'aez and A. Sorkine-Hornung and L. {Van Gool}},
+      title = {The 2017 DAVIS Challenge on Video Object Segmentation},
+      journal = {arXiv:1704.00675},
+      year = {2017}
+    }
 
 - name: "One-Shot Video Object Segmentation"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos/"
@@ -42,6 +82,14 @@
   url_code: "https://github.com/scaelles/OSVOS-TensorFlow"
   url_paper: http://openaccess.thecvf.com/content_cvpr_2017/papers/Caelles_One-Shot_Video_Object_CVPR_2017_paper.pdf
   image: osvos.png
+  bibtex_key: 'Cae+17'
+  bibtex: |
+    @inproceedings{Cae+17,
+      Author  = {S. Caelles and K.-K. Maninis and J. Pont-Tuset and L. Leal-Taix\'e and D. Cremers and L. {Van Gool}},
+      Title   = {One-Shot Video Object Segmentation},
+      Booktitle = {Computer Vision and Pattern Recognition (CVPR)},
+      Year    = {2017}
+    }
 
 
 
