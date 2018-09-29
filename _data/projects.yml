@@ -19,7 +19,7 @@
     - https://enginyeriafisica.etsetb.upc.edu/ca/tambe/noticies/LV24des15.pdf
 
 - title: 'CtiyFlow'
-  description: 'Platform that provids real-time information about hot areas in Barcelona, based on the information given by the geolocalization of Instagram posts uploaded in the city. It was selected for the Global Urban DataFest Contest.'
+  description: 'Platform that provides real-time information about hot areas in Barcelona, based on the information given by the geolocalization of Instagram posts uploaded in the city. It was selected for the Global Urban DataFest Contest.'
   location: 'Barcelona Smart Cities Hackathon 2015'
   url: "http://www.global.datafest.net/a/datafest.net/globalurbandatafest/projects/cityflow"
   video_url: "https://www.youtube.com/watch?v=L76xawJMdOE"
