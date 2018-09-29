@@ -1,5 +1,6 @@
 - title: 'Pineapple'
   description: 'App that allows placing virtual food on your yet empty plate in a restaurant — so that you can always see what you get before you order it!'
+  teammates: 'With N. Kobyshev.'
   location: 'HackZurich 2017'
   url: 'https://devpost.com/software/pineapple-v7e1jm'
   video_url: 'https://www.youtube.com/watch?v=ugE5GQb0FXQ'
@@ -10,6 +11,7 @@
 
 - title: 'Well2Go'
   description: 'Project carried out in collaboration with ESADE and IED students to improve public health by providing safe access to water. We developed a sensor network able to detect the state of the wells in developing countries, bringing real time information to a platform to ensure their maintenance. The project was the winner of the CBI Mediterranean 2015.'
+  teammates: 'With A. Gran, F. Haddad, T. Mendes, B. Rosàs, N. Tsvetkov.'
   location: 'Challenge Based Innovation, IdeaSquare CERN 2016'
   url: 'http://projects.cbi-course.com/otw_pm_portfolio/team-planck-well2go-2015/'
   video_url: 'https://www.youtube.com/watch?time_continue=156&v=YzfT-JAuRr4'
@@ -20,6 +22,7 @@
 
 - title: 'CtiyFlow'
   description: 'Platform that provides real-time information about hot areas in Barcelona, based on the information given by the geolocalization of Instagram posts uploaded in the city. It was selected for the Global Urban DataFest Contest.'
+  teammates: 'With R. Boada, M. Dalmases, A. Fernàndez, A. Gómez, M. Martí.'
   location: 'Barcelona Smart Cities Hackathon 2015'
   url: "http://www.global.datafest.net/a/datafest.net/globalurbandatafest/projects/cityflow"
   video_url: "https://www.youtube.com/watch?v=L76xawJMdOE"

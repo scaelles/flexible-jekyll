@@ -1207,6 +1207,11 @@ footer .copyright {
   font-size: 14px;
 }
 
+.post .post-content .post-teammates {
+  font-size: 15px;
+  margin: 0 0 5px;
+}
+
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 22px;
