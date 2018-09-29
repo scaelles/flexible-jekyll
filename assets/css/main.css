@@ -1142,6 +1142,19 @@ footer .copyright {
   background-size:100% 100%;
 }
 
+.post .post-thumbnail-project {
+  width: 30%;
+  /*height: auto;*/
+  max-width: 100%;
+  min-height: 11rem;
+  /*max-height: 20%;*/
+
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+  background-size:100% 100%;
+}
+
 .post .post-content {
   padding: 1rem;
   width: 70%;
@@ -1417,6 +1430,12 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
     background-size: 70% 100%;
   }
 
+  .post .post-thumbnail-project {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+  }
+
   .post .post-content .post-date {
     font-size: 14px;
   }
@@ -1509,6 +1528,10 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
             flex-direction: column;
   }
   .post .post-thumbnail {
+    width: 100%;
+  }
+
+  .post .post-thumbnail-project {
     width: 100%;
   }
   .post .post-content {

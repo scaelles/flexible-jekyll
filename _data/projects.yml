@@ -1,0 +1,26 @@
+- title: 'Pineapple'
+  description: 'The app allows placing virtual food on your yet empty plate in a restaurant — so that you can always see what you get before you order it!'
+  location: 'HackZurich 2017'
+  url: 'https://devpost.com/software/pineapple-v7e1jm'
+  video_url: 'https://www.youtube.com/watch?v=ugE5GQb0FXQ'
+  img: pineapple.png
+  media: 
+    - "https://www.20min.ch/digital/news/story/iPhones-sehen-jetzt--was-eigentlich-gar-nicht-da-ist-10789848"
+    - "https://www.startupticker.ch/en/news/september-2017/vom-hack-zur-app"
+
+- title: 'Well2Go'
+  description: ' Project carried out in collaboration with ESADE and IED students to improve public health by providing safe access to water. We developed a sensor network able to detect the state of the wells in developing countries, bringing real time information to a platform to ensure their maintenance. The project was the winner of the CBI Mediterranean 2015.'
+  location: 'Challenge Based Innovation, IdeaSquare CERN 2016'
+  url: 'http://projects.cbi-course.com/otw_pm_portfolio/team-planck-well2go-2015/'
+  video_url: 'https://www.youtube.com/watch?time_continue=156&v=YzfT-JAuRr4'
+  img: well2go.png
+  media: 
+    - http://www.elmundo.es/economia/2016/01/05/568ba610ca47412e328b461d.html
+    - https://enginyeriafisica.etsetb.upc.edu/ca/tambe/noticies/LV24des15.pdf
+
+- title: 'CtiyFlow'
+  description: 'CityFlow was a project to provide real-time information about the hot areas in Barcelona, based on the information given by the geolocalization of Instagram posts uploaded in the city. Our project was selected for the Global Urban DataFest Contest'
+  location: 'Barcelona Smart Cities Hackathon 2015'
+  url: "http://www.global.datafest.net/a/datafest.net/globalurbandatafest/projects/cityflow"
+  video_url: "https://www.youtube.com/watch?v=L76xawJMdOE"
+  img: cityflow.png
