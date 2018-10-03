@@ -1,6 +1,6 @@
 - name: "Deep Extreme Cut: From Extreme Points to Object Segmentation"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/dextr/"
-  authors: "K.-K. Maninis*, <b>S. Caelles*</b>, J. Pont-Tuset, L. Van Gool"
+  authors: ['kevis_joint', 'sergi_joint', 'jordi', 'luc']
   publication: "Computer Vision and Pattern Recognition (CVPR), 2018"
   url_code: "https://github.com/scaelles/DEXTR-PyTorch"
   url_paper: "http://openaccess.thecvf.com/content_cvpr_2018/papers/Maninis_Deep_Extreme_Cut_CVPR_2018_paper.pdf"
@@ -16,7 +16,7 @@
 
 - name: "The 2018 DAVIS Challenge on Video Object Segmentation"
   url: "https://davischallenge.org/challenge2018/index.html"
-  authors: "<b>S. Caelles</b>, A. Montes, K.-K. Maninis, Y. Chen, L. Van Gool, F. Perazzi, J. Pont-Tuset"
+  authors: ['sergi', 'alberto', 'kevis', 'yuhua', 'luc', 'federico', 'jordi']
   publication: "arXiv:1803.00557, 2018"
   url_pdf: "https://arxiv.org/pdf/1803.00557"
   image: davis-2018.png
@@ -31,7 +31,7 @@
 
 - name: "Video Object Segmentation Without Temporal Information"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/dextr/"
-  authors: "K.-K. Maninis*, <b>S. Caelles*</b>, Y. Chen, J. Pont-Tuset, L. Leal-Taixe, D. Cremers, L. Van Gool"
+  authors: ['kevis_joint', 'sergi_joint', 'yuhua', 'jordi', 'laura', 'daniel', 'luc']
   publication: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018"
   url_paper: "https://ieeexplore.ieee.org/document/8362936/"
   image: osvoss.png
@@ -46,7 +46,7 @@
 
 - name: "Iterative Deep Learning for Road Topology Extraction"
   url: "https://carlesventura.github.io/iterative-dl-road-website/"
-  authors: "C. Ventura, J. Pont-Tuset, <b>S. Caelles</b>, K.-K. Maninis,  L. Van Gool"
+  authors: ['carles', 'jordi', 'sergi', 'kevis', 'luc']
   publication: "British Machine Vision Conference (BMVC), 2018"
   url_code: "https://github.com/carlesventura/iterative-deep-learning"
   url_paper: "http://bmvc2018.org/contents/papers/0905.pdf"
@@ -62,7 +62,7 @@
 
 - name: "The 2017 DAVIS Challenge on Video Object Segmentation"
   url: "https://davischallenge.org/challenge2017/index.html"
-  authors: "J. Pont-Tuset, F. Perazzi, <b>S. Caelles</b>, P. Arbelaez, A. Sorkine-Hornung, L. Van Gool"
+  authors: ['jordi', 'federico', 'sergi', 'pablo', 'alexander', 'luc']
   publication: "arXiv:1704.00675, 2017"
   url_pdf: https://arxiv.org/abs/1704.00675"
   image: davis-2017.jpg
@@ -77,7 +77,7 @@
 
 - name: "One-Shot Video Object Segmentation"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos/"
-  authors: "<b>S. Caelles*</b>, K.-K. Maninis*, J. Pont-Tuset, L. Leal-Taixe, D. Cremers, L. Van Gool"
+  authors: ['sergi_joint', 'kevis_joint', 'jordi', 'laura', 'daniel', 'luc']
   publication: "Computer Vision and Pattern Recognition (CVPR), 2017"
   url_code: "https://github.com/scaelles/OSVOS-TensorFlow"
   url_paper: http://openaccess.thecvf.com/content_cvpr_2017/papers/Caelles_One-Shot_Video_Object_CVPR_2017_paper.pdf

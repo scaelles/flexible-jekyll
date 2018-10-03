@@ -48,7 +48,16 @@ layout: main
   {% endif %}
   <div class="post-content">
     <p class="post-title"><a href="{{publication.url}}" target="_blank">{{publication.name}}</a></p>
-    <p class="post-authors">{{publication.authors}}</p>
+    {% for author in publication.authors %}
+      {% if site.data.authors[author].url %}
+      <a class="post-authors" href="{{site.data.authors[author].url}}" target="_blank">{{site.data.authors[author].name}}</a>
+      {% else %}
+      <a class="post-authors">{{site.data.authors[author].name}}</a>
+      {% endif %}
+      {% if forloop.last == false %}
+      ,
+      {% endif %}
+    {% endfor %}
     <p class="post-publication">{{publication.publication}}</p>
     <p class="post-words">
       <a href="{{publication.url_paper}}" target="_blank">[PDF]</a>
@@ -68,9 +77,9 @@ layout: main
 <h1 class="post-title" align="center"">Fun projects</h2>
 {% for project in site.data.projects %}  
 <article class="post">
-  <a class="post-thumbnail-project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : project.img}});" href="{{project.url}}" target="_blank"></a>
+  <a class="post-thumbnail-project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : project.img}});" href="{{project.video_url}}" target="_blank"></a>
   <div class="post-content" style="text-align: justify;">
-    <p class="post-title"><a href="{{project.url}}" target="_blank">{{project.title}}</a></p>
+    <p class="post-title"><a href="{{project.video_url}}" target="_blank">{{project.title}}</a></p>
     <p class="post-authors">{{project.description}}</p>
     <p class="post-teammates">{{project.teammates}}</p>
     <p class="post-publication">{{project.location}}</p>
