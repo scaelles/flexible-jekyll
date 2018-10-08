@@ -20,7 +20,7 @@
     - http://www.elmundo.es/economia/2016/01/05/568ba610ca47412e328b461d.html
     - https://enginyeriafisica.etsetb.upc.edu/ca/tambe/noticies/LV24des15.pdf
 
-- title: 'CtiyFlow'
+- title: 'CityFlow'
   description: 'Platform that provides real-time information about hot areas in Barcelona, based on the information given by the geolocalization of Instagram posts uploaded in the city. It was selected for the Global Urban DataFest Contest.'
   teammates: 'With R. Boada, M. Dalmases, A. Fernàndez, A. Gómez, M. Martí.'
   location: 'Barcelona Smart Cities Hackathon 2015'
