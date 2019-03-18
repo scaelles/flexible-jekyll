@@ -18,7 +18,7 @@
   url: "https://davischallenge.org/challenge2018/index.html"
   authors: ['sergi', 'alberto', 'kevis', 'yuhua', 'luc', 'federico', 'jordi']
   publication: "arXiv:1803.00557, 2018"
-  url_pdf: "https://arxiv.org/pdf/1803.00557"
+  url_paper: "https://arxiv.org/pdf/1803.00557"
   image: davis-2018.png
   bibtex_key: 'Caelles_arXiv_2018'
   bibtex: |
@@ -64,7 +64,7 @@
   url: "https://davischallenge.org/challenge2017/index.html"
   authors: ['jordi', 'federico', 'sergi', 'pablo', 'alexander', 'luc']
   publication: "arXiv:1704.00675, 2017"
-  url_pdf: https://arxiv.org/abs/1704.00675"
+  url_paper: https://arxiv.org/abs/1704.00675"
   image: davis-2017.jpg
   bibtex_key: 'Pont-Tuset_arXiv_2017'
   bibtex: |
