@@ -1,3 +1,18 @@
+- name: "Fast video object segmentation with Spatio-Temporal GANs"
+  url: "https://arxiv.org/abs/1903.12161"
+  authors: ['sergi_joint', 'albert_joint', 'francesc', 'alberto_sanfeliu', 'luc']
+  publication: "arXiv:1903.12161, 2019"
+  url_paper: "https://arxiv.org/pdf/1903.12161"
+  image: fastgan.jpg
+  bibtex_key: 'Cae+19'
+  bibtex: |
+    @inproceedings{Cae+19,
+      author  = {S. Caelles and A. Pumarola and F. Moreno-Noguer and A. Sanfeliu and L. {Van Gool}},
+      title   = {Fast video object segmentation with Spatio-Temporal GANs},
+      booktitle = {arXiv:1903.12161},
+      year    = {2019}
+    }
+
 - name: "Deep Extreme Cut: From Extreme Points to Object Segmentation"
   url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/dextr/"
   authors: ['kevis_joint', 'sergi_joint', 'jordi', 'luc']

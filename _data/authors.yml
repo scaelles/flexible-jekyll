@@ -2,6 +2,15 @@ sergi_joint:
   name: <b>S. Caelles*</b>
 sergi:
   name: <b>S. Caelles</b>
+albert_joint:
+  name: A. Pumarola*
+  url: https://www.albertpumarola.com/
+francesc:
+  name: F. Moreno-Noguer
+  url: https://www.iri.upc.edu/people/fmoreno/
+alberto_sanfeliu:
+  name: A. Sanfeliu
+  url: http://www.iri.upc.edu/people/sanfeliu/
 kevis_joint:
   name: K.-K. Maninis*
   url: http://www.vision.ee.ethz.ch/~kmaninis/
