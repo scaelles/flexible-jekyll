@@ -3,7 +3,7 @@
   authors: ['sergi', 'jordi', 'federico', 'alberto', 'kevis', 'luc']
   publication: "arXiv:1905.00737, 2019"
   url_paper: "https://arxiv.org/pdf/1905.00737.pdf"
-  image: davis-2019.png
+  image: davis-2019.jpg
   bibtex_key: 'Caelles_arXiv_2019'
   bibtex: |
     @article{Caelles_arXiv_2019, 
