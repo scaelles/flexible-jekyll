@@ -1,3 +1,18 @@
+- name: "The 2019 DAVIS Challenge on VOS: Unsupervised Multi-Object Segmentation"
+  url: "https://davischallenge.org/challenge2019/index.html"
+  authors: ['sergi', 'jordi', 'federico', 'alberto', 'kevis', 'luc']
+  publication: "arXiv:1905.00737, 2019"
+  url_paper: "https://arxiv.org/pdf/1905.00737.pdf"
+  image: davis-2019.png
+  bibtex_key: 'Caelles_arXiv_2019'
+  bibtex: |
+    @article{Caelles_arXiv_2019, 
+      author = {S. Caelles and J. Pont-Tuset and and F. Perazzi and A. Montes and K.-K. Maninis and L. {Van Gool}},
+      title = {The 2019 DAVIS Challenge on VOS: Unsupervised Multi-Object Segmentation},
+      journal = {arXiv:1905.00737},
+      year = {2019}
+    }
+    
 - name: "Fast video object segmentation with Spatio-Temporal GANs"
   url: "https://arxiv.org/abs/1903.12161"
   authors: ['sergi_joint', 'albert_joint', 'francesc', 'alberto_sanfeliu', 'luc']
