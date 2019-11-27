@@ -60,7 +60,7 @@
     }
 
 - name: "Video Object Segmentation Without Temporal Information"
-  url: "http://www.vision.ee.ethz.ch/~cvlsegmentation/dextr/"
+  url: "http://people.ee.ethz.ch/~cvlsegmentation/osvos-s/"
   authors: ['kevis_joint', 'sergi_joint', 'yuhua', 'jordi', 'laura', 'daniel', 'luc']
   publication: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018"
   url_paper: "https://ieeexplore.ieee.org/document/8362936/"
