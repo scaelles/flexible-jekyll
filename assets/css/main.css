@@ -793,6 +793,15 @@ img {
   display: inline-block;
 }
 
+img + em {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 blockquote {
   border-left: 5px solid #000;
   padding-left: 1.1rem;
@@ -1299,6 +1308,23 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
   max-height: 500px;
   background-color: #fafafa;
   overflow: hidden;
+}
+
+.page-cover-image figure {
+  position: relative;
+  margin: 0;
+}
+
+.page-cover-image figcaption {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 .page-cover-image .page-image {
