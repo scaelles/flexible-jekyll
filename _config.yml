@@ -1,6 +1,6 @@
 title: Sergi Caelles
 description: > # this means to ignore newlines until "baseurl:"
-  PhD student in Computer Vision at ETH Zurich
+  Research Scientist at Google Research
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,13 +9,13 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Sergi Caelles # add your name
 author-img: sergi-caelles.jpg # add your photo
-about-author: Computer Vision PhD student at ETH Zurich # add description
+about-author: Research Scientist at Google Research # add description
 social-twitter: skprat # add your Twitter handle
 google-scholar: 4C59xWsAAAAJ&hl
 social-facebook: # add your Facebook handle
 social-github: scaelles # add your Github handle
 social-linkedin: sergicaelles # add your Linkedin handle
-social-email: scaelles@vision.ee.ethz.ch # add your Email address
+social-email: scaelles@google.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
