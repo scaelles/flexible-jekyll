@@ -37,7 +37,7 @@ layout: default
           <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+          <li class="email"><a href=" " onclick='openMailer(this,"znvygb:fpnryyrf@tbbtyr.pbz");'><i class="fa fa-envelope-o"></i></a></li>
         {% else %}
           <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         {% endif %}
@@ -52,3 +52,18 @@ layout: default
 <div class="content-box clearfix">
   {{ content }}
 </div>
+
+<script type="text/javascript">
+function decode(a) {
+  return a.replace(/[a-zA-Z]/g, function(c){
+    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13)
+                               ? c : c - 26);
+  })
+}
+function openMailer(element, email_encrypted) {
+var y = decode(email_encrypted);
+element.setAttribute("href", y);
+element.setAttribute("onclick", "");
+element.firstChild.nodeValue = "Open email software";
+}
+</script>
